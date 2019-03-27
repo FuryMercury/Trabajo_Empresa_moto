@@ -84,6 +84,11 @@ public class Vista_Ventana_Admin extends javax.swing.JFrame {
         
         
     }
+    public void liberarPanel(){ // test 
+        this.jsContent.removeAll();
+        this.revalidate();
+        this.repaint();
+    }
 
 
     @SuppressWarnings("unchecked")
